@@ -1,0 +1,10 @@
+#!/bin/bash
+# Just a silly script that runs pdflatex multiple times
+#
+# author: Chris Choi <chutsu@gmail.com>
+pdflatex ${1/.tex/}
+bibtex ${1/.tex/}
+pdflatex ${1/.tex/}
+pdflatex ${1/.tex/}
+rm ${1/.tex/}.log
+rm *.aux

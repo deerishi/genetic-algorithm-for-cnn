@@ -1,0 +1,60 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{wrapfig}
+\usepackage{lmodern}
+
+
+% DOCUMENT PADDING AND MARGINS
+\usepackage[margin=0.85in]{geometry}
+\setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}
+\titlespacing*{\section}{0pt}{2ex}{0ex}
+\titlespacing*{\subsection}{0pt}{2ex}{-2ex}
+\titlespacing*{\subsubsection}{0pt}{2ex}{-2ex}
+
+% SOURCE CODE SETTINGS
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{xcolor}
+\lstset{
+	language=Python,
+	basicstyle=\small\sffamily,
+	numbers=left,
+	numberstyle=\tiny,
+	frame=tb,
+	columns=fullflexible,
+	showstringspaces=false
+}
+
+\begin{document}
+% COVER PAGE
+\title{Right Whale Classification using Deep Neural Networks}
+\author{\
+    Xinrarn Liu,
+    Fatemeh Karimi,
+    Deepak Rishi \&
+    Chris Choi
+}
+%\maketitle
+
+% SECTIONS
+\input{sections/introduction}
+\input{sections/preprocessing}
+\input{sections/experiments}
+\input{sections/conclusion}
+
+
+% BIBLIOGRAPHY
+\bibliography{report}
+\bibliographystyle{plain}
+
+% EXTRA
+\input{sections/supplementary}
+\end{document}

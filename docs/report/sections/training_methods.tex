@@ -1,0 +1,61 @@
+\section{Training Methods}
+Over the past few years, very satisfactory results are produced by deep neural
+networks (DNNs) in the digit recognition field. DNNs are composed of several
+layers allowing them to perform more efficiently at representing highly varying
+non-linear functions in comparison to shallow networks. In addition, integrated
+training of feature extractors and classifiers is the other advantage of DNNs,
+and raw images can be used as inputs of DNNs and no preprocessing on the images
+is required. 
+
+Back-propagation is the dominant algorithm used in training neural networks,
+and there is a huge amount of research applying such methods to recognize
+digits. However, the back-propagation algorithm performs poorly when the number
+of hidden layers is large due to the so called “diminishing gradient problem” -
+as the error signals propagate backwards, they become smaller and smaller, and
+eventually become too small to guide the update of weights in the first a few
+layers. The diminishing gradient problem is a major obstacle in training DNNs. 
+
+DCNNs can be trained with gradient-based learning algorithm without
+pre-training. However, it has not been widely used because the training
+algorithm was not easy to use. In 1990s, LeCun et al. applied a gradient-based
+learning algorithm to DCNN and obtained successful results. After that,
+researchers further improved DCNN and reported good results in image
+recognition.
+
+The gradient-based learning algorithm is a generalization of the
+back propagation algorithm, which iterates to adjust the weights to minimize an
+error function E.
+
+One of the he predominant methodologies in training deep learning advocates
+the use of stochastic gradient descent methods (SGDs). Strength of SGDs is
+that they are simple to implement and also fast for problems that have many
+training examples. Despite its ease of implementation, SGDs are difficult to
+tune and parallelize. These problems make it challenging to develop, debug and
+scale up deep learning algorithms with SGDs.
+
+Deep Belief Networks has been also used to recognize digits.
+
+
+
+\section{Methods and Results}\label{Methods and Results}
+Object recognition and classification is one of the most common tasks in computer vision. There are several classification techniques that can be applied to our datasets. In this project, we implemented four different deep neural network which has been shown to have good performance on image classification tasks[ref].
+
+
+
+\subsection{Multi-Layer Perceptron (MLP)}\label{Multi-Layer Perceptron(MLP)}
+We train ... MLPs with ... hidden layers and varying numbers of hidden units.
+weights were initiated .... .
+
+
+
+\subsection{Stacked Autoencoders}\label{Stacked Autoencoders }
+wheight initialization
+
+
+
+\subsection{Convolutional Neural Networks (CNN)}\label{Convolutional Neural Networks (CNN)}
+Convolution neural networks (CNNs) has been shown to perform very well in object(face) recognition and classification[].\par
+
+
+
+\subsection{Genetic Algorithm Tuning of MLP and CNN}\label{Genetic Algorithm Tuning of MLP and CNN}

@@ -1,0 +1,7 @@
+numpy
+scipy
+scikit-learn
+Theano
+keras
+Cython
+h5py
