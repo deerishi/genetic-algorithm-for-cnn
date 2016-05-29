@@ -1,6 +1,6 @@
 {
   "name": "Genetic-algorithm-for-cnn",
-  "tagline": "This code tunes a Convolutional Neural Network using a genetic algorithm for Image Classification. ",
+  "tagline": "This project tunes a Convolutional Neural Network using a genetic algorithm for Image Classification. ",
   "body": "This Project aims to explore the Deep Learning for Image Classification. The main part is the tuning of a COnvolutional Neural Net using Genetic Algorithm. This project also explored Stacked Autoencoders for learning useful representations of images which can be further used as features for Image Classification.\r\n\r\n![](https://github.com/deerishi/genetic-algorithm-for-cnn/blob/master/docs/report/sections/imgs/cnn/fmap.jpg?raw=True)",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
